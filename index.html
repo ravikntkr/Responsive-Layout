@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Layout</title>
+    <!-- Google Font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+  </head>
+  <!-- Markup -->
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- Logo -->
+      <div class="logo">
+        <img src="./white-logo.png" alt="Logo" class="website-logo" />
+      </div>
+      <!-- Main Menu -->
+      <nav>
+        <!--Mobile menu icon-->
+        <img src="./menu.png" class="menu-icon" />
+
+        <ul class="main-menu">
+          <li class="menu-items">Home</li>
+          <li class="menu-items">Courses</li>
+          <li class="menu-items">About</li>
+          <li class="menu-items">Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Hero section -->
+    <main>
+      <div class="main-container">
+        <h1 class="main-title">Learn Code Online</h1>
+        <p class="hero-subtxt">
+          High Quality Course at Affordable prices. We are latest <br />
+          in tech and highest in quality.
+        </p>
+        <button class="hero-btn">Enroll Now</button>
+      </div>
+    </main>
+    <!-- Article section -->
+    <div class="article-section">
+      <h2 class="heading">Article</h2>
+      <div class="articles">
+        <!-- Post 1 -->
+        <article>
+          <img src="./assets/c1.png" alt="post 1" class="article-thumbnail" />
+          <p class="post-title">Complete iOS 16 developer with swift</p>
+          <a href="#">Read more</a>
+        </article>
+        <!-- Post 2 -->
+        <article>
+          <img src="./assets/c2.png" alt="post 1" class="article-thumbnail" />
+          <p class="post-title">Prisma I backend development with mongo</p>
+          <a href="#">Read more</a>
+        </article>
+        <!-- Post 3 -->
+        <article>
+          <img src="./assets/c3.png" alt="post 1" class="article-thumbnail" />
+          <p class="post-title">NextJS Full stack crash course</p>
+          <a href="#">Read more</a>
+        </article>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <p class="copyright-txt">Copyright © 2023 | Made By Ravikant K.</p>
+    </footer>
+  </body>
+</html>
